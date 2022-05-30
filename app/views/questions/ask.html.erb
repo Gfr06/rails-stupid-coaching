@@ -1,0 +1,15 @@
+<h1>Ask a question</h1>
+<%# <form action="/answer" method="get">
+  <input type="text" name="question">
+  <input type="submit" value="Ask!">
+</form> %>
+<div style="width:600px">
+<form novalidate="novalidate" class="simple_form search" action="/answer" accept-charset="UTF-8" method="get">
+  <div class="search-form-control form-group" style="background-color:green padding:18px">
+    <input class="form-control string required" type="text" name="question" id="search_query" />
+    <button name="button" type="submit" class="btn btn-primary">
+      <i class="fas fa-search"></i> Ask!
+    </button>
+  </div>
+</form>
+</div>

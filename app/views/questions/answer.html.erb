@@ -1,0 +1,19 @@
+<div style=" width:600px" class="pt-4">
+<div class="flash flash-success alert alert-dismissible fade show" role="alert">
+  <span><strong>Me:</strong>  <%= @question %></span>
+  <a data-bs-dismiss="alert" aria-label="Close">
+    <i class="fas fa-times"></i>
+  </a>
+</div>
+
+<div class="flash flash-warning alert alert-dismissible fade show" role="alert">
+  <span><strong>Coach:</strong>   <%= @answer %></span>
+  <a data-bs-dismiss="alert" aria-label="Close">
+    <i class="fas fa-times"></i>
+  </a>
+</div>
+
+
+
+<%= link_to "Ask a new question" , ask_path %>
+</div>
